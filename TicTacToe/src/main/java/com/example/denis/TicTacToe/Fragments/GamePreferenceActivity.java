@@ -2,6 +2,7 @@ package com.example.denis.TicTacToe.Fragments;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,7 +16,7 @@ import java.util.ArrayList;
 /**
  * ${PROJECT_NAME} created by Denis Pavlovsky on 17.02.15.
  */
-public class GamePreferenceActivity  extends Activity {
+public class GamePreferenceActivity  extends ActionBarActivity {
 
 
     @Override
@@ -27,7 +28,6 @@ public class GamePreferenceActivity  extends Activity {
         diffTypes.add("Difficult");
         diffTypes.add("Medium");
         diffTypes.add("Easy");
-
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_spinner_item, diffTypes);
@@ -68,7 +68,7 @@ public class GamePreferenceActivity  extends Activity {
 
 
         ArrayAdapter<String> choose_pic_adapter = new ArrayAdapter<String>(
-                this, android.R.layout.simple_spinner_item, diffTypes);
+                this, android.R.layout.simple_spinner_item, picTypes);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         final Spinner spinner_choose_pic = (Spinner) findViewById(R.id.picture_spinner);
