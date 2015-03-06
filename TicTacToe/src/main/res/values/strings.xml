@@ -1,0 +1,41 @@
+
+
+<resources>
+
+
+    <string name="app_name">PlusMinus</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="NewGameButtonText">New Game</string>
+    <string name="RecordsButtonText">Best Records</string>
+    <string name="PreferencesButtonText">Preferences</string>
+
+    <string name="options_label">Options</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+
+    <string name="message_title">Message</string>
+    <string name="question_title">Question</string>
+
+    <string name="draw_game">It`s a draw!  Do you want to challenge one more round?</string>
+    <string name="nought_win_game">Nought win! Do you want to challenge one more round?</string>
+    <string name="cross_win_game">Cross win! Do you want to challenge one more round?</string>
+    <string name="restart_game">Restart Game?</string>
+
+    <string name="about_label">About</string>
+    <string name="about_title">About Tic Tac Toe</string>
+	<string name="about_text">This version of the popular game <b>Tic Tac Toe</b> for Android lets you test your skills against the wits of the robot. Put three <b>X</b>-marks in a line horizontally, vertically, or diagonally before the computer can line up three <b>O</b>-marks and you win.
+	</string>
+    <string name="CurrnetPlayerText">Make turn player №</string>
+    <string name="humanScoreTextHint">Player score - 5</string>
+    <string name="droidScoreTextHint">Droid score - 7</string>
+    <string name="timeTextRecordsListHint">Game-time: \n 12 minutes 37 second</string>
+    <string name="Loading">Загрузка...</string>
+    <string name="NoRecords">Sorry there no any records yet</string>
+    <string name="choose_picture">Chosse picture for the first turn:</string>
+    <string name="choose_difficult">Chosse the difficult:</string>
+    <string name="choose_picture_title">Choose your picture</string>
+    <string name="difficult_spinner_title">The difficult</string>
+</resources>

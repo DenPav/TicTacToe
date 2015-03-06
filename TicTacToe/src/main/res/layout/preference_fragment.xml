@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="@string/choose_difficult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+
+    <Spinner
+        android:id="@+id/difficult_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        </Spinner>
+
+    <TextView
+        android:text="@string/choose_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+
+    <Spinner
+        android:id="@+id/picture_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        </Spinner>
+
+
+
+
+    <!--<TextView-->
+        <!--android:textSize="50sp"-->
+        <!--android:hint="In developing..."-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+</LinearLayout>
